@@ -2,505 +2,1962 @@ import 'package:flutter/material.dart';
 
 Map imageProductList = {
   "biryani": [
-    {'image': const AssetImage('assets/image/biryani/bi(1).jpeg'), 'type': 'hyderabadi biryani'},
-    {'image': const AssetImage('assets/image/biryani/bi(1).jpg'), 'type': 'lucknowi biryani'},
-    {'image': const AssetImage('assets/image/biryani/bi(2).jpeg'), 'type': 'bombay veg biryani'},
-    {'image': const AssetImage('assets/image/biryani/bi(2).jpg'), 'type': 'hyderabadi biryani'},
-    {'image': const AssetImage('assets/image/biryani/bi(3).jpg'), 'type': 'lucknowi biryani'},
-    {'image': const AssetImage('assets/image/biryani/bi(4).jpg'), 'type': 'bombay veg biryani'},
-    {'image': const AssetImage('assets/image/biryani/bi(5).jpg'), 'type': 'hyderabadi biryani'},
-    {'image': const AssetImage('assets/image/biryani/bi(6).jpg'), 'type': 'lucknowi biryani'},
-    {'image': const AssetImage('assets/image/biryani/bi(7).jpg'), 'type': 'bombay veg biryani'},
-    {'image': const AssetImage('assets/image/biryani/bi(8).jpg'), 'type': 'hyderabadi biryani'},
-    {'image': const AssetImage('assets/image/biryani/bi(9).jpg'), 'type': 'lucknowi biryani'},
-    {'image': const AssetImage('assets/image/biryani/bi(10).jpg'), 'type': 'bombay veg biryani'},
-    {'image': const AssetImage('assets/image/biryani/bi(11).jpg'), 'type': 'hyderabadi biryani'},
-    {'image': const AssetImage('assets/image/biryani/bi(12).jpg'), 'type': 'lucknowi biryani'},
-    {'image': const AssetImage('assets/image/biryani/bi(13).jpg'), 'type': 'bombay veg biryani'},
-    {'image': const AssetImage('assets/image/biryani/bi(14).jpg'), 'type': 'hyderabadi biryani'},
-    {'image': const AssetImage('assets/image/biryani/bi(15).jpg'), 'type': 'lucknowi biryani'},
-    {'image': const AssetImage('assets/image/biryani/bi(16).jpg'), 'type': 'bombay veg biryani'},
-    {'image': const AssetImage('assets/image/biryani/bi(17).jpg'), 'type': 'hyderabadi biryani'},
-    {'image': const AssetImage('assets/image/biryani/bi(18).jpg'), 'type': 'lucknowi biryani'},
-    {'image': const AssetImage('assets/image/biryani/bi(19).jpg'), 'type': 'bombay veg biryani'},
+    {
+      'image': const AssetImage('assets/image/biryani/bi(1).jpeg'),
+      'type': 'hyderabadi biryani'
+    },
+    {
+      'image': const AssetImage('assets/image/biryani/bi(1).jpg'),
+      'type': 'lucknowi biryani'
+    },
+    {
+      'image': const AssetImage('assets/image/biryani/bi(2).jpeg'),
+      'type': 'bombay veg biryani'
+    },
+    {
+      'image': const AssetImage('assets/image/biryani/bi(2).jpg'),
+      'type': 'hyderabadi biryani'
+    },
+    {
+      'image': const AssetImage('assets/image/biryani/bi(3).jpg'),
+      'type': 'lucknowi biryani'
+    },
+    {
+      'image': const AssetImage('assets/image/biryani/bi(4).jpg'),
+      'type': 'bombay veg biryani'
+    },
+    {
+      'image': const AssetImage('assets/image/biryani/bi(5).jpg'),
+      'type': 'hyderabadi biryani'
+    },
+    {
+      'image': const AssetImage('assets/image/biryani/bi(6).jpg'),
+      'type': 'lucknowi biryani'
+    },
+    {
+      'image': const AssetImage('assets/image/biryani/bi(7).jpg'),
+      'type': 'bombay veg biryani'
+    },
+    {
+      'image': const AssetImage('assets/image/biryani/bi(8).jpg'),
+      'type': 'hyderabadi biryani'
+    },
+    {
+      'image': const AssetImage('assets/image/biryani/bi(9).jpg'),
+      'type': 'lucknowi biryani'
+    },
+    {
+      'image': const AssetImage('assets/image/biryani/bi(10).jpg'),
+      'type': 'bombay veg biryani'
+    },
+    {
+      'image': const AssetImage('assets/image/biryani/bi(11).jpg'),
+      'type': 'hyderabadi biryani'
+    },
+    {
+      'image': const AssetImage('assets/image/biryani/bi(12).jpg'),
+      'type': 'lucknowi biryani'
+    },
+    {
+      'image': const AssetImage('assets/image/biryani/bi(13).jpg'),
+      'type': 'bombay veg biryani'
+    },
+    {
+      'image': const AssetImage('assets/image/biryani/bi(14).jpg'),
+      'type': 'hyderabadi biryani'
+    },
+    {
+      'image': const AssetImage('assets/image/biryani/bi(15).jpg'),
+      'type': 'lucknowi biryani'
+    },
+    {
+      'image': const AssetImage('assets/image/biryani/bi(16).jpg'),
+      'type': 'bombay veg biryani'
+    },
+    {
+      'image': const AssetImage('assets/image/biryani/bi(17).jpg'),
+      'type': 'hyderabadi biryani'
+    },
+    {
+      'image': const AssetImage('assets/image/biryani/bi(18).jpg'),
+      'type': 'lucknowi biryani'
+    },
+    {
+      'image': const AssetImage('assets/image/biryani/bi(19).jpg'),
+      'type': 'bombay veg biryani'
+    },
   ],
-  "cake":[
-    {'image': const AssetImage('assets/image/cake/ca(1).jpg'), 'type': 'chocolate cake'},
-    {'image': const AssetImage('assets/image/cake/ca(2).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/cake/ca(3).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/cake/ca(4).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/cake/ca(5).jpg'), 'type': 'chocolate cake'},
-    {'image': const AssetImage('assets/image/cake/ca(6).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/cake/ca(7).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/cake/ca(8).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/cake/ca(9).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/cake/ca(10).jpg'), 'type': 'chocolate cake'},
-    {'image': const AssetImage('assets/image/cake/ca(11).jpg'), 'type': 'chocolate cake'},
-    {'image': const AssetImage('assets/image/cake/ca(12).jpg'), 'type': 'chocolate cake'},
-    {'image': const AssetImage('assets/image/cake/ca(13).jpg'), 'type': 'chocolate cake'},
-    {'image': const AssetImage('assets/image/cake/ca(14).jpg'), 'type': 'chocolate cake'},
-    {'image': const AssetImage('assets/image/cake/ca(15).jpg'), 'type': 'chocolate cake'},
-    {'image': const AssetImage('assets/image/cake/ca(16).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/cake/ca(17).jpg'), 'type': 'chocolate cake'},
-    {'image': const AssetImage('assets/image/cake/ca(18).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/cake/ca(19).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/cake/ca(20).jpg'), 'type': 'chocolate cake'},
-    {'image': const AssetImage('assets/image/cake/ca(21).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/cake/ca(22).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/cake/ca(23).jpg'), 'type': 'chocolate cake'},
-    {'image': const AssetImage('assets/image/cake/ca(24).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/cake/ca(25).jpg'), 'type': 'chocolate cake'},
-    {'image': const AssetImage('assets/image/cake/ca(26).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/cake/ca(27).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/cake/ca(28).jpg'), 'type': 'chocolate cake'},
-    {'image': const AssetImage('assets/image/cake/ca(29).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/cake/ca(30).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/cake/ca(31).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/cake/ca(32).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/cake/ca(33).jpg'), 'type': 'chocolate cake'},
-    {'image': const AssetImage('assets/image/cake/ca(34).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/cake/ca(35).jpg'), 'type': 'chocolate cake'},
-    {'image': const AssetImage('assets/image/cake/ca(36).jpg'), 'type': 'chocolate cake'},
-    {'image': const AssetImage('assets/image/cake/ca(37).jpg'), 'type': 'chocolate cake'},
-    {'image': const AssetImage('assets/image/cake/ca(38).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/cake/ca(39).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/cake/ca(40).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/cake/ca(41).jpg'), 'type': 'chocolate cake'},
-    {'image': const AssetImage('assets/image/cake/ca(42).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/cake/ca(43).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/cake/ca(44).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/cake/ca(45).jpg'), 'type': 'chocolate cake'},
-    {'image': const AssetImage('assets/image/cake/ca(46).jpg'), 'type': 'chocolate cake'},
-    {'image': const AssetImage('assets/image/cake/ca(47).jpg'), 'type': 'chocolate cake'},
+  "cake": [
+    {
+      'image': const AssetImage('assets/image/cake/ca(1).jpg'),
+      'type': 'chocolate cake'
+    },
+    {
+      'image': const AssetImage('assets/image/cake/ca(2).jpg'),
+      'type': 'fruit cake'
+    },
+    {
+      'image': const AssetImage('assets/image/cake/ca(3).jpg'),
+      'type': 'cheese cake'
+    },
+    {
+      'image': const AssetImage('assets/image/cake/ca(4).jpg'),
+      'type': 'chocolate cake'
+    },
+    {
+      'image': const AssetImage('assets/image/cake/ca(5).jpg'),
+      'type': 'chocolate cake'
+    },
+    {
+      'image': const AssetImage('assets/image/cake/ca(6).jpg'),
+      'type': 'fruit cake'
+    },
+    {
+      'image': const AssetImage('assets/image/cake/ca(7).jpg'),
+      'type': 'fruit cake'
+    },
+    {
+      'image': const AssetImage('assets/image/cake/ca(8).jpg'),
+      'type': 'cheese cake'
+    },
+    {
+      'image': const AssetImage('assets/image/cake/ca(9).jpg'),
+      'type': 'cheese cake'
+    },
+    {
+      'image': const AssetImage('assets/image/cake/ca(10).jpg'),
+      'type': 'chocolate cake'
+    },
+    {
+      'image': const AssetImage('assets/image/cake/ca(11).jpg'),
+      'type': 'chocolate cake'
+    },
+    {
+      'image': const AssetImage('assets/image/cake/ca(12).jpg'),
+      'type': 'chocolate cake'
+    },
+    {
+      'image': const AssetImage('assets/image/cake/ca(13).jpg'),
+      'type': 'chocolate cake'
+    },
+    {
+      'image': const AssetImage('assets/image/cake/ca(14).jpg'),
+      'type': 'chocolate cake'
+    },
+    {
+      'image': const AssetImage('assets/image/cake/ca(15).jpg'),
+      'type': 'chocolate cake'
+    },
+    {
+      'image': const AssetImage('assets/image/cake/ca(16).jpg'),
+      'type': 'cheese cake'
+    },
+    {
+      'image': const AssetImage('assets/image/cake/ca(17).jpg'),
+      'type': 'chocolate cake'
+    },
+    {
+      'image': const AssetImage('assets/image/cake/ca(18).jpg'),
+      'type': 'fruit cake'
+    },
+    {
+      'image': const AssetImage('assets/image/cake/ca(19).jpg'),
+      'type': 'cheese cake'
+    },
+    {
+      'image': const AssetImage('assets/image/cake/ca(20).jpg'),
+      'type': 'chocolate cake'
+    },
+    {
+      'image': const AssetImage('assets/image/cake/ca(21).jpg'),
+      'type': 'cheese cake'
+    },
+    {
+      'image': const AssetImage('assets/image/cake/ca(22).jpg'),
+      'type': 'cheese cake'
+    },
+    {
+      'image': const AssetImage('assets/image/cake/ca(23).jpg'),
+      'type': 'chocolate cake'
+    },
+    {
+      'image': const AssetImage('assets/image/cake/ca(24).jpg'),
+      'type': 'cheese cake'
+    },
+    {
+      'image': const AssetImage('assets/image/cake/ca(25).jpg'),
+      'type': 'chocolate cake'
+    },
+    {
+      'image': const AssetImage('assets/image/cake/ca(26).jpg'),
+      'type': 'fruit cake'
+    },
+    {
+      'image': const AssetImage('assets/image/cake/ca(27).jpg'),
+      'type': 'cheese cake'
+    },
+    {
+      'image': const AssetImage('assets/image/cake/ca(28).jpg'),
+      'type': 'chocolate cake'
+    },
+    {
+      'image': const AssetImage('assets/image/cake/ca(29).jpg'),
+      'type': 'fruit cake'
+    },
+    {
+      'image': const AssetImage('assets/image/cake/ca(30).jpg'),
+      'type': 'cheese cake'
+    },
+    {
+      'image': const AssetImage('assets/image/cake/ca(31).jpg'),
+      'type': 'fruit cake'
+    },
+    {
+      'image': const AssetImage('assets/image/cake/ca(32).jpg'),
+      'type': 'chocolate cake'
+    },
+    {
+      'image': const AssetImage('assets/image/cake/ca(33).jpg'),
+      'type': 'chocolate cake'
+    },
+    {
+      'image': const AssetImage('assets/image/cake/ca(34).jpg'),
+      'type': 'fruit cake'
+    },
+    {
+      'image': const AssetImage('assets/image/cake/ca(35).jpg'),
+      'type': 'chocolate cake'
+    },
+    {
+      'image': const AssetImage('assets/image/cake/ca(36).jpg'),
+      'type': 'chocolate cake'
+    },
+    {
+      'image': const AssetImage('assets/image/cake/ca(37).jpg'),
+      'type': 'chocolate cake'
+    },
+    {
+      'image': const AssetImage('assets/image/cake/ca(38).jpg'),
+      'type': 'cheese cake'
+    },
+    {
+      'image': const AssetImage('assets/image/cake/ca(39).jpg'),
+      'type': 'cheese cake'
+    },
+    {
+      'image': const AssetImage('assets/image/cake/ca(40).jpg'),
+      'type': 'fruit cake'
+    },
+    {
+      'image': const AssetImage('assets/image/cake/ca(41).jpg'),
+      'type': 'chocolate cake'
+    },
+    {
+      'image': const AssetImage('assets/image/cake/ca(42).jpg'),
+      'type': 'cheese cake'
+    },
+    {
+      'image': const AssetImage('assets/image/cake/ca(43).jpg'),
+      'type': 'cheese cake'
+    },
+    {
+      'image': const AssetImage('assets/image/cake/ca(44).jpg'),
+      'type': 'cheese cake'
+    },
+    {
+      'image': const AssetImage('assets/image/cake/ca(45).jpg'),
+      'type': 'chocolate cake'
+    },
+    {
+      'image': const AssetImage('assets/image/cake/ca(46).jpg'),
+      'type': 'chocolate cake'
+    },
+    {
+      'image': const AssetImage('assets/image/cake/ca(47).jpg'),
+      'type': 'chocolate cake'
+    },
   ],
-  "coffee":[
-    {'image': const AssetImage('assets/image/coffee/co(1).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/coffee/co(2).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/coffee/co(3).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/coffee/co(4).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/coffee/co(5).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/coffee/co(6).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/coffee/co(7).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/coffee/co(8).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/coffee/co(9).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/coffee/co(10).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/coffee/co(11).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/coffee/co(12).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/coffee/co(13).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/coffee/co(14).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/coffee/co(15).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/coffee/co(16).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/coffee/co(17).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/coffee/co(18).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/coffee/co(19).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/coffee/co(20).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/coffee/co(21).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/coffee/co(22).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/coffee/co(23).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/coffee/co(24).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/coffee/co(25).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/coffee/co(26).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/coffee/co(27).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/coffee/co(28).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/coffee/co(30).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/coffee/co(31).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/coffee/co(32).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/coffee/co(33).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/coffee/co(34).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/coffee/co(35).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/coffee/co(36).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/coffee/co(37).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/coffee/co(38).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/coffee/co(39).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/coffee/co(40).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/coffee/co(41).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/coffee/co(42).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/coffee/co(43).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/coffee/co(44).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/coffee/co(45).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/coffee/co(46).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/coffee/co(47).jpg'), 'type': ''},
+  "coffee": [
+    {
+      'image': const AssetImage('assets/image/coffee/co(1).jpg'),
+      'type': 'coffee-cold-brew'
+    },
+    {
+      'image': const AssetImage('assets/image/coffee/co(2).jpg'),
+      'type': 'coffee-cappuccino'
+    },
+    {
+      'image': const AssetImage('assets/image/coffee/co(3).jpg'),
+      'type': 'coffee-cold-brew'
+    },
+    {
+      'image': const AssetImage('assets/image/coffee/co(4).jpg'),
+      'type': 'coffee-mocha'
+    },
+    {
+      'image': const AssetImage('assets/image/coffee/co(5).jpg'),
+      'type': 'coffee-cold-brew'
+    },
+    {
+      'image': const AssetImage('assets/image/coffee/co(6).jpg'),
+      'type': 'coffee-mocha'
+    },
+    {
+      'image': const AssetImage('assets/image/coffee/co(7).jpg'),
+      'type': 'coffee-cappuccino'
+    },
+    {
+      'image': const AssetImage('assets/image/coffee/co(8).jpg'),
+      'type': 'coffee-cappuccino'
+    },
+    {
+      'image': const AssetImage('assets/image/coffee/co(9).jpg'),
+      'type': 'coffee-mocha'
+    },
+    {
+      'image': const AssetImage('assets/image/coffee/co(10).jpg'),
+      'type': 'coffee-cappuccino'
+    },
+    {
+      'image': const AssetImage('assets/image/coffee/co(11).jpg'),
+      'type': 'coffee-cappuccino'
+    },
+    {
+      'image': const AssetImage('assets/image/coffee/co(12).jpg'),
+      'type': 'coffee-cappuccino'
+    },
+    {
+      'image': const AssetImage('assets/image/coffee/co(13).jpg'),
+      'type': 'coffee-mocha'
+    },
+    {
+      'image': const AssetImage('assets/image/coffee/co(14).jpg'),
+      'type': 'coffee-cappuccino'
+    },
+    {
+      'image': const AssetImage('assets/image/coffee/co(15).jpg'),
+      'type': 'coffee-mocha'
+    },
+    {
+      'image': const AssetImage('assets/image/coffee/co(16).jpg'),
+      'type': 'coffee-cappuccino'
+    },
+    {
+      'image': const AssetImage('assets/image/coffee/co(17).jpg'),
+      'type': 'coffee-cappuccino'
+    },
+    {
+      'image': const AssetImage('assets/image/coffee/co(18).jpg'),
+      'type': 'coffee-mocha'
+    },
+    {
+      'image': const AssetImage('assets/image/coffee/co(19).jpg'),
+      'type': 'coffee-cappuccino'
+    },
+    {
+      'image': const AssetImage('assets/image/coffee/co(20).jpg'),
+      'type': 'coffee-cappuccino'
+    },
+    {
+      'image': const AssetImage('assets/image/coffee/co(21).jpg'),
+      'type': 'coffee-mocha'
+    },
+    {
+      'image': const AssetImage('assets/image/coffee/co(22).jpg'),
+      'type': 'coffee-cappuccino'
+    },
+    {
+      'image': const AssetImage('assets/image/coffee/co(23).jpg'),
+      'type': 'coffee-cold-brew'
+    },
+    {
+      'image': const AssetImage('assets/image/coffee/co(24).jpg'),
+      'type': 'coffee-cold-brew'
+    },
+    {
+      'image': const AssetImage('assets/image/coffee/co(25).jpg'),
+      'type': 'coffee-affogato'
+    },
+    {
+      'image': const AssetImage('assets/image/coffee/co(26).jpg'),
+      'type': 'coffee-cappuccino'
+    },
+    {
+      'image': const AssetImage('assets/image/coffee/co(27).jpg'),
+      'type': 'coffee-affogato'
+    },
+    {
+      'image': const AssetImage('assets/image/coffee/co(28).jpg'),
+      'type': 'coffee-mocha'
+    },
+    {
+      'image': const AssetImage('assets/image/coffee/co(30).jpg'),
+      'type': 'coffee-affogato'
+    },
+    {
+      'image': const AssetImage('assets/image/coffee/co(31).jpg'),
+      'type': 'coffee-affogato'
+    },
+    {
+      'image': const AssetImage('assets/image/coffee/co(32).jpg'),
+      'type': 'coffee-affogato'
+    },
+    {
+      'image': const AssetImage('assets/image/coffee/co(33).jpg'),
+      'type': 'coffee-mocha'
+    },
+    {
+      'image': const AssetImage('assets/image/coffee/co(34).jpg'),
+      'type': 'coffee-cappuccino'
+    },
+    {
+      'image': const AssetImage('assets/image/coffee/co(35).jpg'),
+      'type': 'coffee-affogato'
+    },
+    {
+      'image': const AssetImage('assets/image/coffee/co(36).jpg'),
+      'type': 'coffee-mocha'
+    },
+    {
+      'image': const AssetImage('assets/image/coffee/co(37).jpg'),
+      'type': 'coffee-cappuccino'
+    },
+    {
+      'image': const AssetImage('assets/image/coffee/co(38).jpg'),
+      'type': 'coffee-mocha'
+    },
+    {
+      'image': const AssetImage('assets/image/coffee/co(39).jpg'),
+      'type': 'coffee-cappuccino'
+    },
+    {
+      'image': const AssetImage('assets/image/coffee/co(40).jpg'),
+      'type': 'coffee-mocha'
+    },
+    {
+      'image': const AssetImage('assets/image/coffee/co(41).jpg'),
+      'type': 'coffee-cappuccino'
+    },
+    {
+      'image': const AssetImage('assets/image/coffee/co(42).jpg'),
+      'type': 'coffee-affogato'
+    },
+    {
+      'image': const AssetImage('assets/image/coffee/co(43).jpg'),
+      'type': 'coffee-affogato'
+    },
   ],
-  "custard":[
-    {'image': const AssetImage('assets/image/custard/cd(1).jpeg'), 'type': 'chocolate custard'},
-    {'image': const AssetImage('assets/image/custard/cd(2).jpeg'), 'type': 'vanilla custard'},
-    {'image': const AssetImage('assets/image/custard/cd(3).jpeg'), 'type': 'mango custard'},
-    {'image': const AssetImage('assets/image/custard/cd(4).jpeg'), 'type': 'chocolate custard'},
-    {'image': const AssetImage('assets/image/custard/cd(5).jpeg'), 'type': 'vanilla custard'},
-    {'image': const AssetImage('assets/image/custard/cd(6).jpeg'), 'type': 'mango custard'},
-    {'image': const AssetImage('assets/image/custard/cd(7).jpeg'), 'type': 'chocolate custard'},
-    {'image': const AssetImage('assets/image/custard/cd(8).jpeg'), 'type': 'vanilla custard'},
-    {'image': const AssetImage('assets/image/custard/cd(9).jpeg'), 'type': 'mango custard'},
-    {'image': const AssetImage('assets/image/custard/cd(10).jpeg'), 'type': 'chocolate custard'},
-    {'image': const AssetImage('assets/image/custard/cd(11).jpeg'), 'type': 'vanilla custard'},
-    {'image': const AssetImage('assets/image/custard/cd(12).jpeg'), 'type': 'mango custard'},
-    {'image': const AssetImage('assets/image/custard/cd(13).jpeg'), 'type': 'chocolate custard'},
-    {'image': const AssetImage('assets/image/custard/cd(14).jpeg'), 'type': 'vanilla custard'},
-    {'image': const AssetImage('assets/image/custard/cd(15).jpeg'), 'type': 'mango custard'},
-    {'image': const AssetImage('assets/image/custard/cd(16).jpeg'), 'type': 'chocolate custard'},
-    {'image': const AssetImage('assets/image/custard/cd(17).jpeg'), 'type': 'vanilla custard'},
-    {'image': const AssetImage('assets/image/custard/cd(18).jpeg'), 'type': 'mango custard'},
-    {'image': const AssetImage('assets/image/custard/cd(19).jpeg'), 'type': 'chocolate custard'},
-    {'image': const AssetImage('assets/image/custard/cd(20).jpeg'), 'type': 'vanilla custard'},
-    {'image': const AssetImage('assets/image/custard/cd(21).jpeg'), 'type': 'mango custard'},
-    {'image': const AssetImage('assets/image/custard/cd(22).jpeg'), 'type': 'chocolate custard'},
-    {'image': const AssetImage('assets/image/custard/cd(23).jpeg'), 'type': 'vanilla custard'},
-    {'image': const AssetImage('assets/image/custard/cd(24).jpeg'), 'type': 'mango custard'},
-    {'image': const AssetImage('assets/image/custard/cd(25).jpeg'), 'type': 'chocolate custard'},
-    {'image': const AssetImage('assets/image/custard/cd(26).jpeg'), 'type': 'vanilla custard'},
-    {'image': const AssetImage('assets/image/custard/cd(27).jpeg'), 'type': 'mango custard'},
-    {'image': const AssetImage('assets/image/custard/cd(28).jpeg'), 'type': 'chocolate custard'},
-    {'image': const AssetImage('assets/image/custard/cd(29).jpeg'), 'type': 'vanilla custard'},
-    {'image': const AssetImage('assets/image/custard/cd(30).jpeg'), 'type': 'mango custard'},
-    {'image': const AssetImage('assets/image/custard/cd(31).jpeg'), 'type': 'chocolate custard'},
-    {'image': const AssetImage('assets/image/custard/cd(32).jpeg'), 'type': 'vanilla custard'},
-    {'image': const AssetImage('assets/image/custard/cd(33).jpeg'), 'type': 'mango custard'},
+  "custard": [
+    {
+      'image': const AssetImage('assets/image/custard/cd(1).jpeg'),
+      'type': 'chocolate custard'
+    },
+    {
+      'image': const AssetImage('assets/image/custard/cd(2).jpeg'),
+      'type': 'vanilla custard'
+    },
+    {
+      'image': const AssetImage('assets/image/custard/cd(3).jpeg'),
+      'type': 'mango custard'
+    },
+    {
+      'image': const AssetImage('assets/image/custard/cd(4).jpeg'),
+      'type': 'chocolate custard'
+    },
+    {
+      'image': const AssetImage('assets/image/custard/cd(5).jpeg'),
+      'type': 'vanilla custard'
+    },
+    {
+      'image': const AssetImage('assets/image/custard/cd(6).jpeg'),
+      'type': 'mango custard'
+    },
+    {
+      'image': const AssetImage('assets/image/custard/cd(7).jpeg'),
+      'type': 'chocolate custard'
+    },
+    {
+      'image': const AssetImage('assets/image/custard/cd(8).jpeg'),
+      'type': 'vanilla custard'
+    },
+    {
+      'image': const AssetImage('assets/image/custard/cd(9).jpeg'),
+      'type': 'mango custard'
+    },
+    {
+      'image': const AssetImage('assets/image/custard/cd(10).jpeg'),
+      'type': 'chocolate custard'
+    },
+    {
+      'image': const AssetImage('assets/image/custard/cd(11).jpeg'),
+      'type': 'vanilla custard'
+    },
+    {
+      'image': const AssetImage('assets/image/custard/cd(12).jpeg'),
+      'type': 'mango custard'
+    },
+    {
+      'image': const AssetImage('assets/image/custard/cd(13).jpeg'),
+      'type': 'chocolate custard'
+    },
+    {
+      'image': const AssetImage('assets/image/custard/cd(14).jpeg'),
+      'type': 'vanilla custard'
+    },
+    {
+      'image': const AssetImage('assets/image/custard/cd(15).jpeg'),
+      'type': 'mango custard'
+    },
+    {
+      'image': const AssetImage('assets/image/custard/cd(16).jpeg'),
+      'type': 'chocolate custard'
+    },
+    {
+      'image': const AssetImage('assets/image/custard/cd(17).jpeg'),
+      'type': 'vanilla custard'
+    },
+    {
+      'image': const AssetImage('assets/image/custard/cd(18).jpeg'),
+      'type': 'mango custard'
+    },
+    {
+      'image': const AssetImage('assets/image/custard/cd(19).jpeg'),
+      'type': 'chocolate custard'
+    },
+    {
+      'image': const AssetImage('assets/image/custard/cd(20).jpeg'),
+      'type': 'vanilla custard'
+    },
+    {
+      'image': const AssetImage('assets/image/custard/cd(21).jpeg'),
+      'type': 'mango custard'
+    },
+    {
+      'image': const AssetImage('assets/image/custard/cd(22).jpeg'),
+      'type': 'chocolate custard'
+    },
+    {
+      'image': const AssetImage('assets/image/custard/cd(23).jpeg'),
+      'type': 'vanilla custard'
+    },
+    {
+      'image': const AssetImage('assets/image/custard/cd(24).jpeg'),
+      'type': 'mango custard'
+    },
+    {
+      'image': const AssetImage('assets/image/custard/cd(25).jpeg'),
+      'type': 'chocolate custard'
+    },
+    {
+      'image': const AssetImage('assets/image/custard/cd(26).jpeg'),
+      'type': 'vanilla custard'
+    },
+    {
+      'image': const AssetImage('assets/image/custard/cd(27).jpeg'),
+      'type': 'mango custard'
+    },
+    {
+      'image': const AssetImage('assets/image/custard/cd(28).jpeg'),
+      'type': 'chocolate custard'
+    },
+    {
+      'image': const AssetImage('assets/image/custard/cd(29).jpeg'),
+      'type': 'vanilla custard'
+    },
+    {
+      'image': const AssetImage('assets/image/custard/cd(30).jpeg'),
+      'type': 'mango custard'
+    },
+    {
+      'image': const AssetImage('assets/image/custard/cd(31).jpeg'),
+      'type': 'chocolate custard'
+    },
+    {
+      'image': const AssetImage('assets/image/custard/cd(32).jpeg'),
+      'type': 'vanilla custard'
+    },
+    {
+      'image': const AssetImage('assets/image/custard/cd(33).jpeg'),
+      'type': 'mango custard'
+    },
   ],
-  "fast food":[
-    {'image': const AssetImage('assets/image/fast_food/ff(1).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/fast_food/ff(2).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/fast_food/ff(3).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/fast_food/ff(4).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/fast_food/ff(5).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/fast_food/ff(6).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/fast_food/ff(7).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/fast_food/ff(8).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/fast_food/ff(9).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/fast_food/ff(10).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/fast_food/ff(11).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/fast_food/ff(12).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/fast_food/ff(13).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/fast_food/ff(14).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/fast_food/ff(15).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/fast_food/ff(16).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/fast_food/ff(17).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/fast_food/ff(18).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/fast_food/ff(19).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/fast_food/ff(20).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/fast_food/ff(21).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/fast_food/ff(22).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/fast_food/ff(23).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/fast_food/ff(24).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/fast_food/ff(25).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/fast_food/ff(26).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/fast_food/ff(27).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/fast_food/ff(28).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/fast_food/ff(29).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/fast_food/ff(30).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/fast_food/ff(32).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/fast_food/ff(33).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/fast_food/ff(35).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/fast_food/ff(36).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/fast_food/ff(37).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/fast_food/ff(38).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/fast_food/ff(39).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/fast_food/ff(40).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/fast_food/ff(41).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/fast_food/ff(42).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/fast_food/ff(43).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/fast_food/ff(44).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/fast_food/ff(45).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/fast_food/ff(46).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/fast_food/ff(47).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/fast_food/ff(48).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/fast_food/ff(49).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/fast_food/ff(50).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/fast_food/ff(51).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/fast_food/ff(52).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/fast_food/ff(53).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/fast_food/ff(54).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/fast_food/ff(55).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/fast_food/ff(56).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/fast_food/ff(57).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/fast_food/ff(58).jpg'), 'type': ''},
+  // "fast food":[
+  //   {'image': const AssetImage('assets/image/fast_food/ff(1).jpg'), 'type': ''},
+  //   {'image': const AssetImage('assets/image/fast_food/ff(2).jpg'), 'type': ''},
+  //   {'image': const AssetImage('assets/image/fast_food/ff(3).jpg'), 'type': ''},
+  //   {'image': const AssetImage('assets/image/fast_food/ff(4).jpg'), 'type': ''},
+  //   {'image': const AssetImage('assets/image/fast_food/ff(5).jpg'), 'type': ''},
+  //   {'image': const AssetImage('assets/image/fast_food/ff(6).jpg'), 'type': ''},
+  //   {'image': const AssetImage('assets/image/fast_food/ff(7).jpg'), 'type': ''},
+  //   {'image': const AssetImage('assets/image/fast_food/ff(8).jpg'), 'type': ''},
+  //   {'image': const AssetImage('assets/image/fast_food/ff(9).jpg'), 'type': ''},
+  //   {'image': const AssetImage('assets/image/fast_food/ff(10).jpg'), 'type': ''},
+  //   {'image': const AssetImage('assets/image/fast_food/ff(11).jpg'), 'type': ''},
+  //   {'image': const AssetImage('assets/image/fast_food/ff(12).jpg'), 'type': ''},
+  //   {'image': const AssetImage('assets/image/fast_food/ff(13).jpg'), 'type': ''},
+  //   {'image': const AssetImage('assets/image/fast_food/ff(14).jpg'), 'type': ''},
+  //   {'image': const AssetImage('assets/image/fast_food/ff(15).jpg'), 'type': ''},
+  //   {'image': const AssetImage('assets/image/fast_food/ff(16).jpg'), 'type': ''},
+  //   {'image': const AssetImage('assets/image/fast_food/ff(17).jpg'), 'type': ''},
+  //   {'image': const AssetImage('assets/image/fast_food/ff(18).jpg'), 'type': ''},
+  //   {'image': const AssetImage('assets/image/fast_food/ff(19).jpg'), 'type': ''},
+  //   {'image': const AssetImage('assets/image/fast_food/ff(20).jpg'), 'type': ''},
+  //   {'image': const AssetImage('assets/image/fast_food/ff(21).jpg'), 'type': ''},
+  //   {'image': const AssetImage('assets/image/fast_food/ff(22).jpg'), 'type': ''},
+  //   {'image': const AssetImage('assets/image/fast_food/ff(23).jpg'), 'type': ''},
+  //   {'image': const AssetImage('assets/image/fast_food/ff(24).jpg'), 'type': ''},
+  //   {'image': const AssetImage('assets/image/fast_food/ff(25).jpg'), 'type': ''},
+  //   {'image': const AssetImage('assets/image/fast_food/ff(26).jpg'), 'type': ''},
+  //   {'image': const AssetImage('assets/image/fast_food/ff(27).jpg'), 'type': ''},
+  //   {'image': const AssetImage('assets/image/fast_food/ff(28).jpg'), 'type': ''},
+  //   {'image': const AssetImage('assets/image/fast_food/ff(29).jpg'), 'type': ''},
+  //   {'image': const AssetImage('assets/image/fast_food/ff(30).jpg'), 'type': ''},
+  //   {'image': const AssetImage('assets/image/fast_food/ff(32).jpg'), 'type': ''},
+  //   {'image': const AssetImage('assets/image/fast_food/ff(33).jpg'), 'type': ''},
+  //   {'image': const AssetImage('assets/image/fast_food/ff(35).jpg'), 'type': ''},
+  //   {'image': const AssetImage('assets/image/fast_food/ff(36).jpg'), 'type': ''},
+  //   {'image': const AssetImage('assets/image/fast_food/ff(37).jpg'), 'type': ''},
+  //   {'image': const AssetImage('assets/image/fast_food/ff(38).jpg'), 'type': ''},
+  //   {'image': const AssetImage('assets/image/fast_food/ff(39).jpg'), 'type': ''},
+  //   {'image': const AssetImage('assets/image/fast_food/ff(40).jpg'), 'type': ''},
+  //   {'image': const AssetImage('assets/image/fast_food/ff(41).jpg'), 'type': ''},
+  //   {'image': const AssetImage('assets/image/fast_food/ff(42).jpg'), 'type': ''},
+  //   {'image': const AssetImage('assets/image/fast_food/ff(43).jpg'), 'type': ''},
+  //   {'image': const AssetImage('assets/image/fast_food/ff(44).jpg'), 'type': ''},
+  //   {'image': const AssetImage('assets/image/fast_food/ff(45).jpg'), 'type': ''},
+  //   {'image': const AssetImage('assets/image/fast_food/ff(46).jpg'), 'type': ''},
+  //   {'image': const AssetImage('assets/image/fast_food/ff(47).jpg'), 'type': ''},
+  //   {'image': const AssetImage('assets/image/fast_food/ff(48).jpg'), 'type': ''},
+  //   {'image': const AssetImage('assets/image/fast_food/ff(49).jpg'), 'type': ''},
+  //   {'image': const AssetImage('assets/image/fast_food/ff(50).jpg'), 'type': ''},
+  //   {'image': const AssetImage('assets/image/fast_food/ff(51).jpg'), 'type': ''},
+  //   {'image': const AssetImage('assets/image/fast_food/ff(52).jpg'), 'type': ''},
+  //   {'image': const AssetImage('assets/image/fast_food/ff(53).jpg'), 'type': ''},
+  //   {'image': const AssetImage('assets/image/fast_food/ff(54).jpg'), 'type': ''},
+  //   {'image': const AssetImage('assets/image/fast_food/ff(55).jpg'), 'type': ''},
+  //   {'image': const AssetImage('assets/image/fast_food/ff(56).jpg'), 'type': ''},
+  //   {'image': const AssetImage('assets/image/fast_food/ff(57).jpg'), 'type': ''},
+  //   {'image': const AssetImage('assets/image/fast_food/ff(58).jpg'), 'type': ''},
+  // ],
+  // "jain_food":[
+  //   {'image': const AssetImage('assets/image/jain_food/jf(1).jpg'), 'type': ''},
+  //   {'image': const AssetImage('assets/image/jain_food/jf(2).jpg'), 'type': ''},
+  //   {'image': const AssetImage('assets/image/jain_food/jf(3).jpg'), 'type': ''},
+  //   {'image': const AssetImage('assets/image/jain_food/jf(4).jpg'), 'type': ''},
+  //   {'image': const AssetImage('assets/image/jain_food/jf(5).jpg'), 'type': ''},
+  //   {'image': const AssetImage('assets/image/jain_food/jf(6).jpg'), 'type': ''},
+  //   {'image': const AssetImage('assets/image/jain_food/jf(7).jpg'), 'type': ''},
+  //   {'image': const AssetImage('assets/image/jain_food/jf(8).jpg'), 'type': ''},
+  //   {'image': const AssetImage('assets/image/jain_food/jf(9).jpg'), 'type': ''},
+  //   {'image': const AssetImage('assets/image/jain_food/jf(10).jpg'), 'type': ''},
+  //   {'image': const AssetImage('assets/image/jain_food/jf(11).jpg'), 'type': ''},
+  //   {'image': const AssetImage('assets/image/jain_food/jf(12).jpg'), 'type': ''},
+  //   {'image': const AssetImage('assets/image/jain_food/jf(13).jpg'), 'type': ''},
+  //   {'image': const AssetImage('assets/image/jain_food/jf(14).jpg'), 'type': ''},
+  //   {'image': const AssetImage('assets/image/jain_food/jf(15).jpg'), 'type': ''},
+  //   {'image': const AssetImage('assets/image/jain_food/jf(16).jpg'), 'type': ''},
+  //   {'image': const AssetImage('assets/image/jain_food/jf(17).jpg'), 'type': ''},
+  //   {'image': const AssetImage('assets/image/jain_food/jf(18).jpg'), 'type': ''},
+  //   {'image': const AssetImage('assets/image/jain_food/jf(19).jpg'), 'type': ''},
+  //   {'image': const AssetImage('assets/image/jain_food/jf(20).jpg'), 'type': ''},
+  //   {'image': const AssetImage('assets/image/jain_food/jf(21).jpg'), 'type': ''},
+  //   {'image': const AssetImage('assets/image/jain_food/jf(22).jpg'), 'type': ''},
+  //   {'image': const AssetImage('assets/image/jain_food/jf(23).jpg'), 'type': ''},
+  //   {'image': const AssetImage('assets/image/jain_food/jf(24).jpg'), 'type': ''},
+  //
+  // ],
+  "fast food": [
+    {
+      'image': const AssetImage('assets/image/fast_food/ff(1).jpg'),
+      'type': 'burger'
+    },
+    {
+      'image': const AssetImage('assets/image/fast_food/ff(2).jpg'),
+      'type': 'sandwich'
+    },
+    {
+      'image': const AssetImage('assets/image/fast_food/ff(3).jpg'),
+      'type': 'wrap'
+    },
+    {
+      'image': const AssetImage('assets/image/fast_food/ff(4).jpg'),
+      'type': 'wrap'
+    },
+    {
+      'image': const AssetImage('assets/image/fast_food/ff(5).jpg'),
+      'type': 'noodles'
+    },
+    {
+      'image': const AssetImage('assets/image/fast_food/ff(6).jpg'),
+      'type': 'noodles'
+    },
+    {
+      'image': const AssetImage('assets/image/fast_food/ff(7).jpg'),
+      'type': 'dhokla'
+    },
+    {
+      'image': const AssetImage('assets/image/fast_food/ff(8).jpg'),
+      'type': 'pav-bhaji'
+    },
+    {
+      'image': const AssetImage('assets/image/fast_food/ff(9).jpg'),
+      'type': 'burger'
+    },
+    {
+      'image': const AssetImage('assets/image/fast_food/ff(10).jpg'),
+      'type': 'noodles'
+    },
+    {
+      'image': const AssetImage('assets/image/fast_food/ff(11).jpg'),
+      'type': 'wrap'
+    },
+    {
+      'image': const AssetImage('assets/image/fast_food/ff(12).jpg'),
+      'type': 'fries'
+    },
+    {
+      'image': const AssetImage('assets/image/fast_food/ff(13).jpg'),
+      'type': 'chole-bhature'
+    },
+    {
+      'image': const AssetImage('assets/image/fast_food/ff(14).jpg'),
+      'type': 'burger'
+    },
+    {
+      'image': const AssetImage('assets/image/fast_food/ff(15).jpg'),
+      'type': 'burger'
+    },
+    {
+      'image': const AssetImage('assets/image/fast_food/ff(16).jpg'),
+      'type': 'fries'
+    },
+    {
+      'image': const AssetImage('assets/image/fast_food/ff(17).jpg'),
+      'type': 'burger'
+    },
+    {
+      'image': const AssetImage('assets/image/fast_food/ff(18).jpg'),
+      'type': 'chole-bhature'
+    },
+    {
+      'image': const AssetImage('assets/image/fast_food/ff(19).jpg'),
+      'type': 'vada-pav'
+    },
+    {
+      'image': const AssetImage('assets/image/fast_food/ff(20).jpg'),
+      'type': 'dosa'
+    },
+    {
+      'image': const AssetImage('assets/image/fast_food/ff(21).jpg'),
+      'type': 'fries'
+    },
+    {
+      'image': const AssetImage('assets/image/fast_food/ff(22).jpg'),
+      'type': 'sandwich'
+    },
+    {
+      'image': const AssetImage('assets/image/fast_food/ff(23).jpg'),
+      'type': 'wrap'
+    },
+    {
+      'image': const AssetImage('assets/image/fast_food/ff(24).jpg'),
+      'type': 'burger'
+    },
+    {
+      'image': const AssetImage('assets/image/fast_food/ff(25).jpg'),
+      'type': 'wrap'
+    },
+    {
+      'image': const AssetImage('assets/image/fast_food/ff(26).jpg'),
+      'type': 'chole-bhature'
+    },
+    {
+      'image': const AssetImage('assets/image/fast_food/ff(27).jpg'),
+      'type': 'sandwich'
+    },
+    {
+      'image': const AssetImage('assets/image/fast_food/ff(28).jpg'),
+      'type': 'burger'
+    },
+    {
+      'image': const AssetImage('assets/image/fast_food/ff(29).jpg'),
+      'type': 'pav-bhaji'
+    },
+    {
+      'image': const AssetImage('assets/image/fast_food/ff(30).jpg'),
+      'type': 'burger'
+    },
+    {
+      'image': const AssetImage('assets/image/fast_food/ff(31).jpg'),
+      'type': 'sandwich'
+    },
+    {
+      'image': const AssetImage('assets/image/fast_food/ff(32).jpg'),
+      'type': 'vada-pav'
+    },
+    {
+      'image': const AssetImage('assets/image/fast_food/ff(33).jpg'),
+      'type': 'taco'
+    },
+    {
+      'image': const AssetImage('assets/image/fast_food/ff(34).jpg'),
+      'type': 'taco'
+    },
+    {
+      'image': const AssetImage('assets/image/fast_food/ff(35).jpg'),
+      'type': 'chole-bhature'
+    },
+    {
+      'image': const AssetImage('assets/image/fast_food/ff(36).jpg'),
+      'type': 'chole-bhature'
+    },
+    {
+      'image': const AssetImage('assets/image/fast_food/ff(37).jpg'),
+      'type': 'burger'
+    },
+    {
+      'image': const AssetImage('assets/image/fast_food/ff(38).jpg'),
+      'type': 'chole-bhature'
+    },
+    {
+      'image': const AssetImage('assets/image/fast_food/ff(39).jpg'),
+      'type': 'taco'
+    },
+    {
+      'image': const AssetImage('assets/image/fast_food/ff(40).jpg'),
+      'type': 'pav-bhaji'
+    },
+    {
+      'image': const AssetImage('assets/image/fast_food/ff(41).jpg'),
+      'type': 'pav-bhaji'
+    },
+    {
+      'image': const AssetImage('assets/image/fast_food/ff(42).jpg'),
+      'type': 'sandwich'
+    },
+    {
+      'image': const AssetImage('assets/image/fast_food/ff(43).jpg'),
+      'type': 'sandwich'
+    },
+    {
+      'image': const AssetImage('assets/image/fast_food/ff(44).jpg'),
+      'type': 'sandwich'
+    },
+    {
+      'image': const AssetImage('assets/image/fast_food/ff(45).jpg'),
+      'type': 'momos'
+    },
+    {
+      'image': const AssetImage('assets/image/fast_food/ff(46).jpg'),
+      'type': 'pav-bhaji'
+    },
+    {
+      'image': const AssetImage('assets/image/fast_food/ff(47).jpg'),
+      'type': 'puffes'
+    },
+    {
+      'image': const AssetImage('assets/image/fast_food/ff(48).jpg'),
+      'type': 'samosa'
+    },
+    {
+      'image': const AssetImage('assets/image/fast_food/ff(49).jpg'),
+      'type': 'samosa'
+    },
+    {
+      'image': const AssetImage('assets/image/fast_food/ff(50).jpg'),
+      'type': 'taco'
+    },
+    {
+      'image': const AssetImage('assets/image/fast_food/ff(51).jpg'),
+      'type': 'pav-bhaji'
+    },
+    {
+      'image': const AssetImage('assets/image/fast_food/ff(52).jpg'),
+      'type': 'burger'
+    },
+    {
+      'image': const AssetImage('assets/image/fast_food/ff(53).jpg'),
+      'type': 'chole-bhature'
+    },
+    {
+      'image': const AssetImage('assets/image/fast_food/ff(54).jpg'),
+      'type': 'chole-bhature'
+    },
+    {
+      'image': const AssetImage('assets/image/fast_food/ff(55).jpg'),
+      'type': 'vada-pav'
+    },
+    {
+      'image': const AssetImage('assets/image/fast_food/ff(56).jpg'),
+      'type': 'burger'
+    },
+    {
+      'image': const AssetImage('assets/image/fast_food/ff(57).jpg'),
+      'type': 'vada-pav'
+    },
+    {
+      'image': const AssetImage('assets/image/fast_food/ff(58).jpg'),
+      'type': 'puffes'
+    },
   ],
-  "jain_food":[
-    {'image': const AssetImage('assets/image/jain_food/jf(1).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/jain_food/jf(2).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/jain_food/jf(3).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/jain_food/jf(4).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/jain_food/jf(5).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/jain_food/jf(6).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/jain_food/jf(7).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/jain_food/jf(8).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/jain_food/jf(9).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/jain_food/jf(10).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/jain_food/jf(11).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/jain_food/jf(12).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/jain_food/jf(13).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/jain_food/jf(14).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/jain_food/jf(15).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/jain_food/jf(16).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/jain_food/jf(17).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/jain_food/jf(18).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/jain_food/jf(19).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/jain_food/jf(20).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/jain_food/jf(21).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/jain_food/jf(22).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/jain_food/jf(23).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/jain_food/jf(24).jpg'), 'type': ''},
-
+  "jain_food": [
+    {
+      'image': const AssetImage('assets/image/jain_food/jf(1).jpg'),
+      'type': 'jain-manchurian'
+    },
+    {
+      'image': const AssetImage('assets/image/jain_food/jf(2).jpg'),
+      'type': 'jain-pizza'
+    },
+    {
+      'image': const AssetImage('assets/image/jain_food/jf(3).jpg'),
+      'type': 'jain-pav bhaji'
+    },
+    {
+      'image': const AssetImage('assets/image/jain_food/jf(4).jpg'),
+      'type': 'jain-paneer sabji'
+    },
+    {
+      'image': const AssetImage('assets/image/jain_food/jf(5).jpg'),
+      'type': 'jain-manchurian'
+    },
+    {
+      'image': const AssetImage('assets/image/jain_food/jf(6).jpg'),
+      'type': 'jain-thali'
+    },
+    {
+      'image': const AssetImage('assets/image/jain_food/jf(7).jpg'),
+      'type': 'jain-sandwich'
+    },
+    {
+      'image': const AssetImage('assets/image/jain_food/jf(8).jpg'),
+      'type': 'jain-pizza'
+    },
+    {
+      'image': const AssetImage('assets/image/jain_food/jf(9).jpg'),
+      'type': 'jain-idli'
+    },
+    {
+      'image': const AssetImage('assets/image/jain_food/jf(10).jpg'),
+      'type': 'jain-sandwich'
+    },
+    {
+      'image': const AssetImage('assets/image/jain_food/jf(11).jpg'),
+      'type': 'jain-sandwich'
+    },
+    {
+      'image': const AssetImage('assets/image/jain_food/jf(12).jpg'),
+      'type': 'jain-manchurian'
+    },
+    {
+      'image': const AssetImage('assets/image/jain_food/jf(13).jpg'),
+      'type': 'jain-briyani'
+    },
+    {
+      'image': const AssetImage('assets/image/jain_food/jf(14).jpg'),
+      'type': 'jain-momos'
+    },
+    {
+      'image': const AssetImage('assets/image/jain_food/jf(15).jpg'),
+      'type': 'jain-pizza'
+    },
+    {
+      'image': const AssetImage('assets/image/jain_food/jf(16).jpg'),
+      'type': 'jain-chinese roll'
+    },
+    {
+      'image': const AssetImage('assets/image/jain_food/jf(17).jpg'),
+      'type': 'jain-noodles'
+    },
+    {
+      'image': const AssetImage('assets/image/jain_food/jf(18).jpg'),
+      'type': 'jain-noodles'
+    },
+    {
+      'image': const AssetImage('assets/image/jain_food/jf(19).jpg'),
+      'type': 'jain-paneer sabji'
+    },
+    {
+      'image': const AssetImage('assets/image/jain_food/jf(20).jpg'),
+      'type': 'jain-sandwich'
+    },
+    {
+      'image': const AssetImage('assets/image/jain_food/jf(21).jpg'),
+      'type': 'jain-noodles'
+    },
+    {
+      'image': const AssetImage('assets/image/jain_food/jf(22).jpg'),
+      'type': 'jain-ras'
+    },
+    {
+      'image': const AssetImage('assets/image/jain_food/jf(23).jpg'),
+      'type': 'jain-paneer sabji'
+    },
+    {
+      'image': const AssetImage('assets/image/jain_food/jf(24).jpg'),
+      'type': 'jain-fries'
+    },
   ],
-  "ice":[
-    {'image': const AssetImage('assets/image/ice/i(1).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/ice/i(2).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/ice/i(3).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/ice/i(4).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/ice/i(5).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/ice/i(6).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/ice/i(7).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/ice/i(8).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/ice/i(9).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/ice/i(10).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/ice/i(11).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/ice/i(12).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/ice/i(13).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/ice/i(14).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/ice/i(15).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/ice/i(16).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/ice/i(17).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/ice/i(18).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/ice/i(19).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/ice/i(20).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/ice/i(21).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/ice/i(22).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/ice/i(23).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/ice/i(24).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/ice/i(25).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/ice/i(26).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/ice/i(27).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/ice/i(28).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/ice/i(29).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/ice/i(30).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/ice/i(31).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/ice/i(32).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/ice/i(33).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/ice/i(34).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/ice/i(35).jpg'), 'type': ''},
+  "ice": [
+    {
+      'image': const AssetImage('assets/image/ice/i(1).jpg'),
+      'type': 'ice-cream'
+    },
+    {
+      'image': const AssetImage('assets/image/ice/i(2).jpg'),
+      'type': 'ice-cream'
+    },
+    {'image': const AssetImage('assets/image/ice/i(3).jpg'), 'type': 'kulfi'},
+    {'image': const AssetImage('assets/image/ice/i(4).jpg'), 'type': 'kulfi'},
+    {
+      'image': const AssetImage('assets/image/ice/i(5).jpg'),
+      'type': 'ice-gola'
+    },
+    {
+      'image': const AssetImage('assets/image/ice/i(6).jpg'),
+      'type': 'ice-cream'
+    },
+    {
+      'image': const AssetImage('assets/image/ice/i(7).jpg'),
+      'type': 'ice-gola'
+    },
+    {
+      'image': const AssetImage('assets/image/ice/i(8).jpg'),
+      'type': 'ice-cream waffle'
+    },
+    {
+      'image': const AssetImage('assets/image/ice/i(9).jpg'),
+      'type': 'ice-cream'
+    },
+    {
+      'image': const AssetImage('assets/image/ice/i(10).jpg'),
+      'type': 'ice-thick shake'
+    },
+    {
+      'image': const AssetImage('assets/image/ice/i(11).jpg'),
+      'type': 'fruit-cocktail'
+    },
+    {
+      'image': const AssetImage('assets/image/ice/i(12).jpg'),
+      'type': 'ice-cream'
+    },
+    {
+      'image': const AssetImage('assets/image/ice/i(13).jpg'),
+      'type': 'ice-cream'
+    },
+    {
+      'image': const AssetImage('assets/image/ice/i(14).jpg'),
+      'type': 'falooda'
+    },
+    {
+      'image': const AssetImage('assets/image/ice/i(15).jpg'),
+      'type': 'falooda'
+    },
+    {
+      'image': const AssetImage('assets/image/ice/i(16).jpg'),
+      'type': 'falooda'
+    },
+    {
+      'image': const AssetImage('assets/image/ice/i(17).jpg'),
+      'type': 'whipped-cream'
+    },
+    {
+      'image': const AssetImage('assets/image/ice/i(18).jpg'),
+      'type': 'falooda'
+    },
+    {
+      'image': const AssetImage('assets/image/ice/i(19).jpg'),
+      'type': 'ice-cream'
+    },
+    {
+      'image': const AssetImage('assets/image/ice/i(20).jpg'),
+      'type': 'ice-cream'
+    },
+    {
+      'image': const AssetImage('assets/image/ice/i(21).jpg'),
+      'type': 'ice-cream waffle'
+    },
+    {
+      'image': const AssetImage('assets/image/ice/i(22).jpg'),
+      'type': 'ice-thick shake'
+    },
+    {
+      'image': const AssetImage('assets/image/ice/i(23).jpg'),
+      'type': 'ice-cream'
+    },
+    {
+      'image': const AssetImage('assets/image/ice/i(24).jpg'),
+      'type': 'ice-cream'
+    },
+    {
+      'image': const AssetImage('assets/image/ice/i(25).jpg'),
+      'type': 'dry-fruit gola'
+    },
+    {
+      'image': const AssetImage('assets/image/ice/i(26).jpg'),
+      'type': 'dry-fruit gola'
+    },
+    {
+      'image': const AssetImage('assets/image/ice/i(27).jpg'),
+      'type': 'ice-cream'
+    },
+    {
+      'image': const AssetImage('assets/image/ice/i(28).jpg'),
+      'type': 'ice-cream'
+    },
+    {
+      'image': const AssetImage('assets/image/ice/i(29).jpg'),
+      'type': 'brownie'
+    },
+    {
+      'image': const AssetImage('assets/image/ice/i(30).jpg'),
+      'type': 'ice-cream'
+    },
+    {
+      'image': const AssetImage('assets/image/ice/i(31).jpg'),
+      'type': 'ice-cream'
+    },
+    {
+      'image': const AssetImage('assets/image/ice/i(32).jpg'),
+      'type': 'falooda'
+    },
+    {
+      'image': const AssetImage('assets/image/ice/i(33).jpg'),
+      'type': 'ice-cream'
+    },
+    {
+      'image': const AssetImage('assets/image/ice/i(34).jpg'),
+      'type': 'falooda'
+    },
+    {'image': const AssetImage('assets/image/ice/i(35).jpg'), 'type': 'kulfi'}
   ],
-  "paratha":[
-    {'image': const AssetImage('assets/image/paratha/p(1).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/paratha/p(2).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/paratha/p(3).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/paratha/p(4).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/paratha/p(6).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/paratha/p(7).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/paratha/p(8).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/paratha/p(9).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/paratha/p(10).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/paratha/p(11).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/paratha/p(12).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/paratha/p(13).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/paratha/p(14).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/paratha/p(15).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/paratha/p(16).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/paratha/p(17).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/paratha/p(18).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/paratha/p(19).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/paratha/p(20).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/paratha/p(21).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/paratha/p(22).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/paratha/p(23).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/paratha/p(24).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/paratha/p(25).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/paratha/p(26).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/paratha/p(27).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/paratha/p(28).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/paratha/p(29).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/paratha/p(30).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/paratha/p(31).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/paratha/p(32).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/paratha/p(33).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/paratha/p(34).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/paratha/p(35).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/paratha/p(36).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/paratha/p(37).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/paratha/p(38).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/paratha/p(39).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/paratha/p(40).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/paratha/p(41).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/paratha/p(42).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/paratha/p(43).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/paratha/p(44).jpg'), 'type': ''},
+  //Added types: butter-paratha,lachha-paratha,plain-paratha,cheese-paratha,aloo-paratha,gobi-paratha,dhaniya-paratha
+  "paratha": [
+    {
+      'image': const AssetImage('assets/image/paratha/p(1).jpg'),
+      'type': 'butter-paratha'
+    },
+    {
+      'image': const AssetImage('assets/image/paratha/p(2).jpg'),
+      'type': 'butter-paratha'
+    },
+    {
+      'image': const AssetImage('assets/image/paratha/p(3).jpg'),
+      'type': 'butter-paratha'
+    },
+    {
+      'image': const AssetImage('assets/image/paratha/p(4).jpg'),
+      'type': 'lachha-paratha'
+    },
+    {
+      'image': const AssetImage('assets/image/paratha/p(5).jpg'),
+      'type': 'butter-paratha'
+    },
+    {
+      'image': const AssetImage('assets/image/paratha/p(6).jpg'),
+      'type': 'butter-paratha'
+    },
+    {
+      'image': const AssetImage('assets/image/paratha/p(7).jpg'),
+      'type': 'butter-paratha'
+    },
+    {
+      'image': const AssetImage('assets/image/paratha/p(8).jpg'),
+      'type': 'plain-paratha'
+    },
+    {
+      'image': const AssetImage('assets/image/paratha/p(9).jpg'),
+      'type': 'cheese-paratha'
+    },
+    {
+      'image': const AssetImage('assets/image/paratha/p(10).jpg'),
+      'type': 'butter-paratha'
+    },
+    {
+      'image': const AssetImage('assets/image/paratha/p(11).jpg'),
+      'type': 'aloo-paratha'
+    },
+    {
+      'image': const AssetImage('assets/image/paratha/p(12).jpg'),
+      'type': 'aloo-paratha'
+    },
+    {
+      'image': const AssetImage('assets/image/paratha/p(13).jpg'),
+      'type': 'gobi-paratha'
+    },
+    {
+      'image': const AssetImage('assets/image/paratha/p(14).jpg'),
+      'type': 'gobi-paratha'
+    },
+    {
+      'image': const AssetImage('assets/image/paratha/p(15).jpg'),
+      'type': 'lachha-paratha'
+    },
+    {
+      'image': const AssetImage('assets/image/paratha/p(16).jpg'),
+      'type': 'lachha-paratha'
+    },
+    {
+      'image': const AssetImage('assets/image/paratha/p(17).jpg'),
+      'type': 'lachha-paratha'
+    },
+    {
+      'image': const AssetImage('assets/image/paratha/p(18).jpg'),
+      'type': 'plain-paratha'
+    },
+    {
+      'image': const AssetImage('assets/image/paratha/p(19).jpg'),
+      'type': 'plain-paratha'
+    },
+    {
+      'image': const AssetImage('assets/image/paratha/p(20).jpg'),
+      'type': 'lachha-paratha'
+    },
+    {
+      'image': const AssetImage('assets/image/paratha/p(21).jpg'),
+      'type': 'aloo-paratha'
+    },
+    {
+      'image': const AssetImage('assets/image/paratha/p(22).jpg'),
+      'type': 'cheese-paratha'
+    },
+    {
+      'image': const AssetImage('assets/image/paratha/p(23).jpg'),
+      'type': 'butter-paratha'
+    },
+    {
+      'image': const AssetImage('assets/image/paratha/p(24).jpg'),
+      'type': 'gobi-paratha'
+    },
+    {
+      'image': const AssetImage('assets/image/paratha/p(25).jpg'),
+      'type': 'gobi-paratha'
+    },
+    {
+      'image': const AssetImage('assets/image/paratha/p(26).jpg'),
+      'type': 'gobi-paratha'
+    },
+    {
+      'image': const AssetImage('assets/image/paratha/p(27).jpg'),
+      'type': 'gobi-paratha'
+    },
+    {
+      'image': const AssetImage('assets/image/paratha/p(28).jpg'),
+      'type': 'butter-paratha'
+    },
+    {
+      'image': const AssetImage('assets/image/paratha/p(29).jpg'),
+      'type': 'lachha-paratha'
+    },
+    {
+      'image': const AssetImage('assets/image/paratha/p(30).jpg'),
+      'type': 'cheese-paratha'
+    },
+    {
+      'image': const AssetImage('assets/image/paratha/p(31).jpg'),
+      'type': 'plain-paratha'
+    },
+    {
+      'image': const AssetImage('assets/image/paratha/p(32).jpg'),
+      'type': 'dhaniya-paratha'
+    },
+    {
+      'image': const AssetImage('assets/image/paratha/p(33).jpg'),
+      'type': 'dhaniya-paratha'
+    },
+    {
+      'image': const AssetImage('assets/image/paratha/p(34).jpg'),
+      'type': 'plain-paratha'
+    },
+    {
+      'image': const AssetImage('assets/image/paratha/p(35).jpg'),
+      'type': 'lachha-paratha'
+    },
+    {
+      'image': const AssetImage('assets/image/paratha/p(36).jpg'),
+      'type': 'dhaniya-paratha'
+    },
+    {
+      'image': const AssetImage('assets/image/paratha/p(37).jpg'),
+      'type': 'plain-paratha'
+    },
+    {
+      'image': const AssetImage('assets/image/paratha/p(38).jpg'),
+      'type': 'lachha-paratha'
+    },
+    {
+      'image': const AssetImage('assets/image/paratha/p(39).jpg'),
+      'type': 'plain-paratha'
+    },
+    {
+      'image': const AssetImage('assets/image/paratha/p(40).jpg'),
+      'type': 'butter-paratha'
+    },
+    {
+      'image': const AssetImage('assets/image/paratha/p(41).jpg'),
+      'type': 'plain-paratha'
+    },
+    {
+      'image': const AssetImage('assets/image/paratha/p(42).jpg'),
+      'type': 'aloo-paratha'
+    },
+    {
+      'image': const AssetImage('assets/image/paratha/p(43).jpg'),
+      'type': 'aloo-paratha'
+    },
+    {
+      'image': const AssetImage('assets/image/paratha/p(44).jpg'),
+      'type': 'dhaniya-paratha'
+    },
   ],
-  "pasta":[
-    {'image': const AssetImage('assets/image/pasta/pt(1).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/pasta/pt(2).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/pasta/pt(3).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/pasta/pt(4).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/pasta/pt(5).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/pasta/pt(6).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/pasta/pt(7).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/pasta/pt(8).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/pasta/pt(9).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/pasta/pt(10).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/pasta/pt(11).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/pasta/pt(12).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/pasta/pt(13).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/pasta/pt(14).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/pasta/pt(15).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/pasta/pt(16).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/pasta/pt(17).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/pasta/pt(18).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/pasta/pt(19).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/pasta/pt(20).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/pasta/pt(21).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/pasta/pt(22).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/pasta/pt(23).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/pasta/pt(24).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/pasta/pt(25).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/pasta/pt(26).jpg'), 'type': ''},
+  "pasta": [
+    {
+      'image': const AssetImage('assets/image/pasta/pt(1).jpg'),
+      'type': 'pasta-radiatore'
+    },
+    {
+      'image': const AssetImage('assets/image/pasta/pt(2).jpg'),
+      'type': 'pasta-radiatore'
+    },
+    {
+      'image': const AssetImage('assets/image/pasta/pt(3).jpg'),
+      'type': 'pasta-macaroni'
+    },
+    {
+      'image': const AssetImage('assets/image/pasta/pt(4).jpg'),
+      'type': 'pasta-macaroni'
+    },
+    {
+      'image': const AssetImage('assets/image/pasta/pt(5).jpg'),
+      'type': 'pasta-macaroni'
+    },
+    {
+      'image': const AssetImage('assets/image/pasta/pt(6).jpg'),
+      'type': 'pasta-macaroni'
+    },
+    {
+      'image': const AssetImage('assets/image/pasta/pt(7).jpg'),
+      'type': 'pasta-macaroni'
+    },
+    {
+      'image': const AssetImage('assets/image/pasta/pt(8).jpg'),
+      'type': 'pasta-macaroni'
+    },
+    {
+      'image': const AssetImage('assets/image/pasta/pt(9).jpg'),
+      'type': 'pasta-macaroni'
+    },
+    {
+      'image': const AssetImage('assets/image/pasta/pt(10).jpg'),
+      'type': 'pasta-macaroni'
+    },
+    {
+      'image': const AssetImage('assets/image/pasta/pt(11).jpg'),
+      'type': 'pasta-macaroni'
+    },
+    {
+      'image': const AssetImage('assets/image/pasta/pt(12).jpg'),
+      'type': 'pasta-macaroni'
+    },
+    {
+      'image': const AssetImage('assets/image/pasta/pt(13).jpg'),
+      'type': 'pasta-ditalini'
+    },
+    {
+      'image': const AssetImage('assets/image/pasta/pt(14).jpg'),
+      'type': 'pasta-ditalini'
+    },
+    {
+      'image': const AssetImage('assets/image/pasta/pt(15).jpg'),
+      'type': 'pasta-macaroni'
+    },
+    {
+      'image': const AssetImage('assets/image/pasta/pt(16).jpg'),
+      'type': 'pasta-macaroni'
+    },
+    {
+      'image': const AssetImage('assets/image/pasta/pt(17).jpg'),
+      'type': 'pasta-macaroni'
+    },
+    {
+      'image': const AssetImage('assets/image/pasta/pt(18).jpg'),
+      'type': 'pasta-macaroni'
+    },
+    {
+      'image': const AssetImage('assets/image/pasta/pt(19).jpg'),
+      'type': 'pasta-macaroni'
+    },
+    {
+      'image': const AssetImage('assets/image/pasta/pt(20).jpg'),
+      'type': 'pasta-radiatore'
+    },
+    {
+      'image': const AssetImage('assets/image/pasta/pt(21).jpg'),
+      'type': 'pasta-macaroni'
+    },
+    {
+      'image': const AssetImage('assets/image/pasta/pt(22).jpg'),
+      'type': 'pasta-macaroni'
+    },
+    {
+      'image': const AssetImage('assets/image/pasta/pt(23).jpg'),
+      'type': 'pasta-macaroni'
+    },
+    {
+      'image': const AssetImage('assets/image/pasta/pt(24).jpg'),
+      'type': 'pasta-radiatore'
+    },
+    {
+      'image': const AssetImage('assets/image/pasta/pt(25).jpg'),
+      'type': 'pasta-macaroni'
+    },
+    {
+      'image': const AssetImage('assets/image/pasta/pt(26).jpg'),
+      'type': 'pasta-macaroni'
+    },
   ],
-  "summer":[
-    {'image': const AssetImage('assets/image/summer/s(1).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/summer/s(2).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/summer/s(3).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/summer/s(4).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/summer/s(5).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/summer/s(6).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/summer/s(7).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/summer/s(8).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/summer/s(9).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/summer/s(10).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/summer/s(11).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/summer/s(12).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/summer/s(13).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/summer/s(14).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/summer/s(15).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/summer/s(16).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/summer/s(17).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/summer/s(18).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/summer/s(19).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/summer/s(20).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/summer/s(21).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/summer/s(22).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/summer/s(23).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/summer/s(24).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/summer/s(25).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/summer/s(26).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/summer/s(27).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/summer/s(28).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/summer/s(29).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/summer/s(30.jpg'), 'type': ''},
+  "summer": [
+    {
+      'image': const AssetImage('assets/image/summer/s(1).jpg'),
+      'type': 'kulfi-mango'
+    },
+    {
+      'image': const AssetImage('assets/image/summer/s(2).jpg'),
+      'type': 'ice-cream-chocolate'
+    },
+    {
+      'image': const AssetImage('assets/image/summer/s(3).jpg'),
+      'type': 'ice-cream-chocolate'
+    },
+    {
+      'image': const AssetImage('assets/image/summer/s(4).jpg'),
+      'type': 'ice-cream-chocolate'
+    },
+    {
+      'image': const AssetImage('assets/image/summer/s(5).jpg'),
+      'type': 'ice-cream-chocolate'
+    },
+    {
+      'image': const AssetImage('assets/image/summer/s(6).jpg'),
+      'type': 'ice-cream-chocolate'
+    },
+    {
+      'image': const AssetImage('assets/image/summer/s(7).jpg'),
+      'type': 'ice-cream-chocolate'
+    },
+    {
+      'image': const AssetImage('assets/image/summer/s(8).jpg'),
+      'type': 'ice-cream-chocolate'
+    },
+    {
+      'image': const AssetImage('assets/image/summer/s(9).jpg'),
+      'type': 'ice-cream-chocolate'
+    },
+    {
+      'image': const AssetImage('assets/image/summer/s(10).jpg'),
+      'type': 'ice-cream-chocolate'
+    },
+    {
+      'image': const AssetImage('assets/image/summer/s(11).jpg'),
+      'type': 'ice-cream-chocolate'
+    },
+    {
+      'image': const AssetImage('assets/image/summer/s(12).jpg'),
+      'type': 'ice-cream-chocolate'
+    },
+    {
+      'image': const AssetImage('assets/image/summer/s(13).jpg'),
+      'type': 'ice-cream-chocolate'
+    },
+    {
+      'image': const AssetImage('assets/image/summer/s(14).jpg'),
+      'type': 'falooda-dry fruit'
+    },
+    {
+      'image': const AssetImage('assets/image/summer/s(15).jpg'),
+      'type': 'ice-cream-chocolate'
+    },
+    {
+      'image': const AssetImage('assets/image/summer/s(16).jpg'),
+      'type': 'ice-cream-chocolate'
+    },
+    {
+      'image': const AssetImage('assets/image/summer/s(17).jpg'),
+      'type': 'ice-cream-chocolate'
+    },
+    {
+      'image': const AssetImage('assets/image/summer/s(18).jpg'),
+      'type': 'ice-cream-chocolate'
+    },
+    {
+      'image': const AssetImage('assets/image/summer/s(19).jpg'),
+      'type': 'ice-cream-chocolate'
+    },
+    {
+      'image': const AssetImage('assets/image/summer/s(20).jpg'),
+      'type': 'ice-cream-chocolate'
+    },
+    {
+      'image': const AssetImage('assets/image/summer/s(21).jpg'),
+      'type': 'ice-cream-chocolate'
+    },
+    {
+      'image': const AssetImage('assets/image/summer/s(22).jpg'),
+      'type': 'ice-cream-chocolate'
+    },
+    {
+      'image': const AssetImage('assets/image/summer/s(23).jpg'),
+      'type': 'falooda-dry fruit'
+    },
+    {
+      'image': const AssetImage('assets/image/summer/s(24).jpg'),
+      'type': 'ice-cream-chocolate'
+    },
+    {
+      'image': const AssetImage('assets/image/summer/s(25).jpg'),
+      'type': 'falooda-dry fruit'
+    },
+    {
+      'image': const AssetImage('assets/image/summer/s(26).jpg'),
+      'type': 'kulfi-mango'
+    },
+    {
+      'image': const AssetImage('assets/image/summer/s(27).jpg'),
+      'type': 'ice-cream-chocolate'
+    },
+    {
+      'image': const AssetImage('assets/image/summer/s(28).jpg'),
+      'type': 'ice-cream-chocolate'
+    },
+    {
+      'image': const AssetImage('assets/image/summer/s(29).jpg'),
+      'type': 'falooda-dry fruit'
+    },
+    {
+      'image': const AssetImage('assets/image/summer/s(30.jpg'),
+      'type': 'falooda-dry fruit'
+    },
   ],
-  "pizza":[
-    {'image': const AssetImage('assets/image/pizza/pz(1).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/pizza/pz(2).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/pizza/pz(3).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/pizza/pz(4).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/pizza/pz(5).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/pizza/pz(6).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/pizza/pz(7).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/pizza/pz(8).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/pizza/pz(9).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/pizza/pz(10).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/pizza/pz(11).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/pizza/pz(12).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/pizza/pz(13).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/pizza/pz(14).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/pizza/pz(15).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/pizza/pz(16).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/pizza/pz(17).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/pizza/pz(18).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/pizza/pz(19).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/pizza/pz(20).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/pizza/pz(21).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/pizza/pz(22).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/pizza/pz(23).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/pizza/pz(24).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/pizza/pz(25).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/pizza/pz(26).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/pizza/pz(27).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/pizza/pz(28).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/pizza/pz(29).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/pizza/pz(30).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/pizza/pz(31).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/pizza/pz(32).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/pizza/pz(33).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/pizza/pz(34).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/pizza/pz(35).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/pizza/pz(36).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/pizza/pz(37).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/pizza/pz(38).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/pizza/pz(39).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/pizza/pz(40).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/pizza/pz(41).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/pizza/pz(42).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/pizza/pz(43).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/pizza/pz(44).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/pizza/pz(45).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/pizza/pz(46).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/pizza/pz(47).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/pizza/pz(48).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/pizza/pz(49).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/pizza/pz(50).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/pizza/pz(51).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/pizza/pz(52).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/pizza/pz(53).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/pizza/pz(54).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/pizza/pz(55).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/pizza/pz(56).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/pizza/pz(58).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/pizza/pz(59).jpeg'), 'type': ''},
-    {'image': const AssetImage('assets/image/pizza/pz(60).jpeg'), 'type': ''},
+  "pizza": [
+    {
+      'image': const AssetImage('assets/image/pizza/pz(1).jpg'),
+      'type': 'vegetarian supreme pizza'
+    },
+    {
+      'image': const AssetImage('assets/image/pizza/pz(2).jpg'),
+      'type': 'vegetarian supreme pizza'
+    },
+    {
+      'image': const AssetImage('assets/image/pizza/pz(3).jpg'),
+      'type': 'cheese pizza'
+    },
+    {
+      'image': const AssetImage('assets/image/pizza/pz(4).jpg'),
+      'type': 'vegetarian supreme pizza'
+    },
+    {
+      'image': const AssetImage('assets/image/pizza/pz(5).jpg'),
+      'type': 'vegetarian supreme pizza'
+    },
+    {
+      'image': const AssetImage('assets/image/pizza/pz(6).jpg'),
+      'type': 'vegetarian supreme pizza'
+    },
+    {
+      'image': const AssetImage('assets/image/pizza/pz(7).jpg'),
+      'type': 'cheese pizza'
+    },
+    {
+      'image': const AssetImage('assets/image/pizza/pz(8).jpg'),
+      'type': 'vegetarian supreme pizza'
+    },
+    {
+      'image': const AssetImage('assets/image/pizza/pz(9).jpg'),
+      'type': 'cheese pizza'
+    },
+    {
+      'image': const AssetImage('assets/image/pizza/pz(10).jpg'),
+      'type': 'vegetarian supreme pizza'
+    },
+    {
+      'image': const AssetImage('assets/image/pizza/pz(11).jpg'),
+      'type': 'vegetarian supreme pizza'
+    },
+    {
+      'image': const AssetImage('assets/image/pizza/pz(12).jpg'),
+      'type': 'cheese pizza'
+    },
+    {
+      'image': const AssetImage('assets/image/pizza/pz(13).jpg'),
+      'type': 'margherita pizza'
+    },
+    {
+      'image': const AssetImage('assets/image/pizza/pz(14).jpg'),
+      'type': 'cheese pizza'
+    },
+    {
+      'image': const AssetImage('assets/image/pizza/pz(15).jpg'),
+      'type': 'vegetarian supreme pizza'
+    },
+    {
+      'image': const AssetImage('assets/image/pizza/pz(16).jpg'),
+      'type': 'margherita pizza'
+    },
+    {
+      'image': const AssetImage('assets/image/pizza/pz(17).jpg'),
+      'type': 'margherita pizza'
+    },
+    {
+      'image': const AssetImage('assets/image/pizza/pz(18).jpg'),
+      'type': 'cheese pizza'
+    },
+    {
+      'image': const AssetImage('assets/image/pizza/pz(19).jpg'),
+      'type': 'vegetarian supreme pizza'
+    },
+    {
+      'image': const AssetImage('assets/image/pizza/pz(20).jpg'),
+      'type': 'margherita pizza'
+    },
+    {
+      'image': const AssetImage('assets/image/pizza/pz(21).jpg'),
+      'type': 'vegetarian supreme pizza'
+    },
+    {
+      'image': const AssetImage('assets/image/pizza/pz(22).jpg'),
+      'type': 'cheese pizza'
+    },
+    {
+      'image': const AssetImage('assets/image/pizza/pz(23).jpg'),
+      'type': 'vegetarian supreme pizza'
+    },
+    {
+      'image': const AssetImage('assets/image/pizza/pz(24).jpg'),
+      'type': 'cheese pizza'
+    },
+    {
+      'image': const AssetImage('assets/image/pizza/pz(25).jpg'),
+      'type': 'vegetarian supreme pizza'
+    },
+    {
+      'image': const AssetImage('assets/image/pizza/pz(26).jpg'),
+      'type': 'vegetarian supreme pizza'
+    },
+    {
+      'image': const AssetImage('assets/image/pizza/pz(27).jpg'),
+      'type': 'vegetarian supreme pizza'
+    },
+    {
+      'image': const AssetImage('assets/image/pizza/pz(28).jpg'),
+      'type': 'vegetarian supreme pizza'
+    },
+    {
+      'image': const AssetImage('assets/image/pizza/pz(29).jpg'),
+      'type': 'vegetarian supreme pizza'
+    },
+    {
+      'image': const AssetImage('assets/image/pizza/pz(30).jpg'),
+      'type': 'vegetarian supreme pizza'
+    },
+    {
+      'image': const AssetImage('assets/image/pizza/pz(31).jpg'),
+      'type': 'cheese pizza'
+    },
+    {
+      'image': const AssetImage('assets/image/pizza/pz(32).jpg'),
+      'type': 'cheese pizza'
+    },
+    {
+      'image': const AssetImage('assets/image/pizza/pz(33).jpg'),
+      'type': 'cheese pizza'
+    },
+    {
+      'image': const AssetImage('assets/image/pizza/pz(34).jpg'),
+      'type': 'cheese pizza'
+    },
+    {
+      'image': const AssetImage('assets/image/pizza/pz(35).jpg'),
+      'type': 'vegetarian supreme pizza'
+    },
+    {
+      'image': const AssetImage('assets/image/pizza/pz(36).jpg'),
+      'type': 'cheese pizza'
+    },
+    {
+      'image': const AssetImage('assets/image/pizza/pz(37).jpg'),
+      'type': 'vegetarian supreme pizza'
+    },
+    {
+      'image': const AssetImage('assets/image/pizza/pz(38).jpg'),
+      'type': 'cheese pizza'
+    },
+    {
+      'image': const AssetImage('assets/image/pizza/pz(39).jpg'),
+      'type': 'vegetarian supreme pizza'
+    },
+    {
+      'image': const AssetImage('assets/image/pizza/pz(40).jpg'),
+      'type': 'vegetarian supreme pizza'
+    },
+    {
+      'image': const AssetImage('assets/image/pizza/pz(41).jpg'),
+      'type': 'vegetarian supreme pizza'
+    },
+    {
+      'image': const AssetImage('assets/image/pizza/pz(42).jpg'),
+      'type': 'vegetarian supreme pizza'
+    },
+    {
+      'image': const AssetImage('assets/image/pizza/pz(43).jpg'),
+      'type': 'margherita pizza'
+    },
+    {
+      'image': const AssetImage('assets/image/pizza/pz(44).jpg'),
+      'type': 'vegetarian supreme pizza'
+    },
+    {
+      'image': const AssetImage('assets/image/pizza/pz(45).jpg'),
+      'type': 'vegetarian supreme pizza'
+    },
+    {
+      'image': const AssetImage('assets/image/pizza/pz(46).jpg'),
+      'type': 'vegetarian supreme pizza'
+    },
+    {
+      'image': const AssetImage('assets/image/pizza/pz(47).jpg'),
+      'type': 'vegetarian supreme pizza'
+    },
+    {
+      'image': const AssetImage('assets/image/pizza/pz(48).jpg'),
+      'type': 'margherita pizza'
+    },
+    {
+      'image': const AssetImage('assets/image/pizza/pz(49).jpg'),
+      'type': 'cheese pizza'
+    },
+    {
+      'image': const AssetImage('assets/image/pizza/pz(50).jpg'),
+      'type': 'vegetarian supreme pizza'
+    },
+    {
+      'image': const AssetImage('assets/image/pizza/pz(51).jpg'),
+      'type': 'vegetarian supreme pizza'
+    },
+    {
+      'image': const AssetImage('assets/image/pizza/pz(52).jpg'),
+      'type': 'cheese pizza'
+    },
+    {
+      'image': const AssetImage('assets/image/pizza/pz(53).jpg'),
+      'type': 'vegetarian supreme pizza'
+    },
+    {
+      'image': const AssetImage('assets/image/pizza/pz(54).jpg'),
+      'type': 'vegetarian supreme pizza'
+    },
+    {
+      'image': const AssetImage('assets/image/pizza/pz(55).jpg'),
+      'type': 'vegetarian supreme pizza'
+    },
+    {
+      'image': const AssetImage('assets/image/pizza/pz(56).jpg'),
+      'type': 'vegetarian supreme pizza'
+    },
+    {
+      'image': const AssetImage('assets/image/pizza/pz(58).jpg'),
+      'type': 'vegetarian supreme pizza'
+    },
+    {
+      'image': const AssetImage('assets/image/pizza/pz(59).jpeg'),
+      'type': 'vegetarian supreme pizza'
+    },
+    {
+      'image': const AssetImage('assets/image/pizza/pz(60).jpeg'),
+      'type': 'cheese pizza'
+    },
   ],
-  "sabji":[
-    {'image': const AssetImage('assets/image/sabji/s(1).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/sabji/s(2).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/sabji/s(3).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/sabji/s(4).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/sabji/s(5).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/sabji/s(6).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/sabji/s(7).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/sabji/s(8).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/sabji/s(9).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/sabji/s(10).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/sabji/s(11).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/sabji/s(12).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/sabji/s(13).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/sabji/s(14).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/sabji/s(15).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/sabji/s(16).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/sabji/s(17).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/sabji/s(18).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/sabji/s(19).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/sabji/s(20).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/sabji/s(21).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/sabji/s(22).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/sabji/s(23).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/sabji/s(24).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/sabji/s(25).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/sabji/s(26).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/sabji/s(27).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/sabji/s(28).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/sabji/s(29).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/sabji/s(30).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/sabji/s(31).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/sabji/s(32).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/sabji/s(33).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/sabji/s(34).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/sabji/s(35).jpg'), 'type': ''},
-
+  "sabji": [
+    {
+      'image': const AssetImage('assets/image/sabji/s(1).jpg'),
+      'type': 'mix-veg'
+    },
+    {
+      'image': const AssetImage('assets/image/sabji/s(2).jpg'),
+      'type': 'matar-panner'
+    },
+    {
+      'image': const AssetImage('assets/image/sabji/s(3).jpg'),
+      'type': 'matar-panner'
+    },
+    {
+      'image': const AssetImage('assets/image/sabji/s(4).jpg'),
+      'type': 'matar-panner'
+    },
+    {
+      'image': const AssetImage('assets/image/sabji/s(5).jpg'),
+      'type': 'mix-veg'
+    },
+    {
+      'image': const AssetImage('assets/image/sabji/s(6).jpg'),
+      'type': 'matar-panner'
+    },
+    {
+      'image': const AssetImage('assets/image/sabji/s(7).jpg'),
+      'type': 'mix-veg'
+    },
+    {
+      'image': const AssetImage('assets/image/sabji/s(8).jpg'),
+      'type': 'matar-panner'
+    },
+    {
+      'image': const AssetImage('assets/image/sabji/s(9).jpg'),
+      'type': 'daal-fry'
+    },
+    {
+      'image': const AssetImage('assets/image/sabji/s(10).jpg'),
+      'type': 'matar-panner'
+    },
+    {
+      'image': const AssetImage('assets/image/sabji/s(11).jpg'),
+      'type': 'mix-veg'
+    },
+    {
+      'image': const AssetImage('assets/image/sabji/s(12).jpg'),
+      'type': 'daal-fry'
+    },
+    {
+      'image': const AssetImage('assets/image/sabji/s(13).jpg'),
+      'type': 'mix-veg'
+    },
+    {
+      'image': const AssetImage('assets/image/sabji/s(14).jpg'),
+      'type': 'mix-veg'
+    },
+    {
+      'image': const AssetImage('assets/image/sabji/s(15).jpg'),
+      'type': 'daal-fry'
+    },
+    {
+      'image': const AssetImage('assets/image/sabji/s(16).jpg'),
+      'type': 'matar-panner'
+    },
+    {
+      'image': const AssetImage('assets/image/sabji/s(17).jpg'),
+      'type': 'mix-veg'
+    },
+    {
+      'image': const AssetImage('assets/image/sabji/s(18).jpg'),
+      'type': 'matar-panner'
+    },
+    {
+      'image': const AssetImage('assets/image/sabji/s(19).jpg'),
+      'type': 'mix-veg'
+    },
+    {
+      'image': const AssetImage('assets/image/sabji/s(20).jpg'),
+      'type': 'matar-panner'
+    },
+    {
+      'image': const AssetImage('assets/image/sabji/s(21).jpg'),
+      'type': 'mix-veg'
+    },
+    {
+      'image': const AssetImage('assets/image/sabji/s(22).jpg'),
+      'type': 'mix-veg'
+    },
+    {
+      'image': const AssetImage('assets/image/sabji/s(23).jpg'),
+      'type': 'daal-fry'
+    },
+    {
+      'image': const AssetImage('assets/image/sabji/s(24).jpg'),
+      'type': 'mix-veg'
+    },
+    {
+      'image': const AssetImage('assets/image/sabji/s(25).jpg'),
+      'type': 'mix-veg'
+    },
+    {
+      'image': const AssetImage('assets/image/sabji/s(26).jpg'),
+      'type': 'daal-fry'
+    },
+    {
+      'image': const AssetImage('assets/image/sabji/s(27).jpg'),
+      'type': 'daal-fry'
+    },
+    {
+      'image': const AssetImage('assets/image/sabji/s(28).jpg'),
+      'type': 'mix-veg'
+    },
+    {
+      'image': const AssetImage('assets/image/sabji/s(29).jpg'),
+      'type': 'mix-veg'
+    },
+    {
+      'image': const AssetImage('assets/image/sabji/s(30).jpg'),
+      'type': 'mix-veg'
+    },
+    {
+      'image': const AssetImage('assets/image/sabji/s(31).jpg'),
+      'type': 'mix-veg'
+    },
+    {
+      'image': const AssetImage('assets/image/sabji/s(32).jpg'),
+      'type': 'mix-veg'
+    },
+    {
+      'image': const AssetImage('assets/image/sabji/s(33).jpg'),
+      'type': 'mix-veg'
+    },
+    {
+      'image': const AssetImage('assets/image/sabji/s(34).jpg'),
+      'type': 'daal-fry'
+    },
+    {
+      'image': const AssetImage('assets/image/sabji/s(35).jpg'),
+      'type': 'daal-fry'
+    },
   ],
-  "sweet":[
+  "sweet": [
     {'image': const AssetImage('assets/image/sweet/st(1).jpg'), 'type': ''},
     {'image': const AssetImage('assets/image/sweet/st(2).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/sweet/st(3).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/sweet/st(4).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/sweet/st(5).jpg'), 'type': ''},
+    {
+      'image': const AssetImage('assets/image/sweet/st(3).jpg'),
+      'type': 'jalebi'
+    },
+    {
+      'image': const AssetImage('assets/image/sweet/st(4).jpg'),
+      'type': 'gulab jamun'
+    },
+    {
+      'image': const AssetImage('assets/image/sweet/st(5).jpg'),
+      'type': 'kaju katli'
+    },
     {'image': const AssetImage('assets/image/sweet/st(6).jpg'), 'type': ''},
     {'image': const AssetImage('assets/image/sweet/st(7).jpg'), 'type': ''},
     {'image': const AssetImage('assets/image/sweet/st(8).jpg'), 'type': ''},
     {'image': const AssetImage('assets/image/sweet/st(9).jpg'), 'type': ''},
     {'image': const AssetImage('assets/image/sweet/st(10).jpg'), 'type': ''},
     {'image': const AssetImage('assets/image/sweet/st(11).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/sweet/st(12).jpg'), 'type': ''},
+    {
+      'image': const AssetImage('assets/image/sweet/st(12).jpg'),
+      'type': 'gulab jamun'
+    },
     {'image': const AssetImage('assets/image/sweet/st(13).jpg'), 'type': ''},
     {'image': const AssetImage('assets/image/sweet/st(14).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/sweet/st(15).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/sweet/st(16).jpg'), 'type': ''},
+    {
+      'image': const AssetImage('assets/image/sweet/st(15).jpg'),
+      'type': 'gulab jamun'
+    },
+    {
+      'image': const AssetImage('assets/image/sweet/st(16).jpg'),
+      'type': 'gulab jamun'
+    },
     {'image': const AssetImage('assets/image/sweet/st(17).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/sweet/st(18).jpg'), 'type': ''},
+    {
+      'image': const AssetImage('assets/image/sweet/st(18).jpg'),
+      'type': 'kaju katli'
+    },
     {'image': const AssetImage('assets/image/sweet/st(19).jpg'), 'type': ''},
     {'image': const AssetImage('assets/image/sweet/st(20).jpg'), 'type': ''},
     {'image': const AssetImage('assets/image/sweet/st(21).jpg'), 'type': ''},
@@ -508,12 +1965,21 @@ Map imageProductList = {
     {'image': const AssetImage('assets/image/sweet/st(23).jpg'), 'type': ''},
     {'image': const AssetImage('assets/image/sweet/st(24).jpg'), 'type': ''},
     {'image': const AssetImage('assets/image/sweet/st(25).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/sweet/st(26).jpg'), 'type': ''},
+    {
+      'image': const AssetImage('assets/image/sweet/st(26).jpg'),
+      'type': 'kheer'
+    },
     {'image': const AssetImage('assets/image/sweet/st(27).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/sweet/st(28).jpg'), 'type': ''},
-    {'image': const AssetImage('assets/image/sweet/st(29).jpg'), 'type': ''},
+    {
+      'image': const AssetImage('assets/image/sweet/st(28).jpg'),
+      'type': 'rasgulla'
+    },
+    {
+      'image': const AssetImage('assets/image/sweet/st(29).jpg'),
+      'type': 'kaju katli'
+    },
   ],
-  "thali":[
+  "thali": [
     {'image': const AssetImage('assets/image/thali/t(1).jpg'), 'type': ''},
     {'image': const AssetImage('assets/image/thali/t(2).jpg'), 'type': ''},
     {'image': const AssetImage('assets/image/thali/t(3).jpg'), 'type': ''},
@@ -537,7 +2003,7 @@ Map imageProductList = {
     {'image': const AssetImage('assets/image/thali/t(21).jpg'), 'type': ''},
     {'image': const AssetImage('assets/image/thali/t(22).jpg'), 'type': ''},
   ],
-  "cafe":[
+  "cafe": [
     {'image': const AssetImage('assets/image/cafe/c(1).jpg'), 'type': ''},
     {'image': const AssetImage('assets/image/cafe/c(2).jpg'), 'type': ''},
     {'image': const AssetImage('assets/image/cafe/c(3).jpg'), 'type': ''},
@@ -574,8 +2040,6 @@ Map imageProductList = {
     {'image': const AssetImage('assets/image/cafe/c(34).jpg'), 'type': ''},
     {'image': const AssetImage('assets/image/cafe/c(35).jpg'), 'type': ''},
   ],
-
-
 };
 
 // "":[
