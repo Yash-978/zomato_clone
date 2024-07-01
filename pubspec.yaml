@@ -70,6 +70,8 @@ flutter:
     - assets/image/fast_food/
     - assets/image/jain_food/
     - assets/image/paratha/
+    - assets/image/summer/
+    - assets/image/ice/
     - assets/image/pasta/
     - assets/image/pizza/
     - assets/image/sabji/

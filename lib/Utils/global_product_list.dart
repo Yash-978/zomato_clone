@@ -1,3 +1,4 @@
+import 'package:flutter/material.dart';
 List productDetail = [
   {
     "productNo": 1,
@@ -221,5 +222,163 @@ List productDetail = [
     // non change
     "catalog": 'Shorshe Bhapa, Rice, Aloo Posto, Sweets'
   },
+
+];
+
+List IconList=[
+  {
+    'icon':Icons.person,
+    'text':'Your Profile',
+  },
+  {
+    // 'icon':Icons.,
+    'text':'Veg Mode',
+  },
+  {
+    'icon':Icons.star_border,
+    'text':'Your ratings',
+  },
+
+];
+List HandCricketList=[
+  {
+    'icon':Icons.sports_cricket_outlined,
+    'text':'ZPL Hand Cricket',
+  },
+
+
+];
+List Food_Order_List=[
+  {
+    'icon':Icons.book,
+    'text':'Your orders',
+  },
+  {
+    'icon':Icons.favorite_border_outlined,
+    'text':'Favourite orders',
+  },
+  {
+    'icon':Icons.train_outlined,
+    'text':'Order on train',
+  },
+  {
+    'icon':Icons.book,
+    'text':'Address book',
+  },
+  {
+    'icon':Icons.visibility_off_outlined,
+    'text':'Hidden Restaurants',
+  },
+  {
+    'icon':Icons.insert_comment_outlined,
+    'text':'Online ordering help',
+  },
+
+];
+List DiningList=[
+  {
+    'icon':Icons.history_toggle_off_outlined,
+    'text':'Your dining transaction',
+  },
+  {
+    'icon':Icons.redeem_outlined,
+    'text':'Your dining rewards',
+  },
+  {
+    'icon':Icons.deck_outlined,
+    'text':'Table reservations',
+  },
+  {
+    'icon':Icons.insert_comment_outlined,
+    'text':'Dining help',
+  },
+  {
+    'icon':Icons.question_mark_outlined,
+    'text':'Frequently asked questions',
+  },
+];
+List MoneyList=[
+  {
+    'icon':Icons.currency_rupee_outlined,
+    'text':'Zomato Money',
+  },
+  {
+    'icon':Icons.redeem_outlined,
+    'text':'Buy Gift Card',
+  },
+  {
+    'icon':Icons.style_outlined,
+    'text':'Claim Gift Card',
+  },
+  {
+    'icon':Icons.wallet,
+    'text':'Zomato Wallet',
+  },
+  {
+    'icon':Icons.abc,
+    'text':'Zomato Wallet',
+  },
+  {
+    'icon':Icons.payment,
+    'text':'Zomato Wallet',
+  },
+
+];
+List Zomato_for_enterprise_List=[
+  {
+    'icon':Icons.apartment,
+    'text':'For employers',
+  },
+  {
+    'icon':Icons.account_box_outlined,
+    'text':'For employees',
+  },
+
+
+];
+List Coupan_List=[
+  {
+    'icon':Icons.percent,
+    'text':'Collected coupons',
+  },
+  {
+    'icon':Icons.percent_rounded,
+    'text':'Apply membership coupons',
+  },
+
+
+];
+List Restaurent_Awards_List=[
+  {
+    'icon':Icons.emoji_events_outlined,
+    'text':'Restaurant Awards 2024',
+  },
+
+
+
+];
+List More_List=[
+  {
+    'icon':Icons.translate,
+    'text':'Choose language',
+  },
+  {
+    'icon':Icons.info_outline,
+    'text':'About',
+  },
+  {
+    'icon':Icons.edit_square,
+    'text':'Send feedback',
+  },
+  {
+    'icon':Icons.settings,
+    'text':'Settings',
+  },
+  {
+    'icon':Icons.power_settings_new,
+    'text':'Log out',
+  },
+
+
 
 ];
