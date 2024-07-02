@@ -46,6 +46,7 @@ class _HomePageState extends State<HomePage> {
           //     },
           //   ),
           // ),
+
           CircleAvatar(
             radius: 200,
             backgroundImage: AssetImage('assets/image/summer/s(1).jpg'),
